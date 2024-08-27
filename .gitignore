@@ -164,3 +164,6 @@ cython_debug/
 /Lib/
 /Include/
 /pyvenv.cfg
+share
+/Library/
+/SLM/models/DistilBERT/pretrained/
