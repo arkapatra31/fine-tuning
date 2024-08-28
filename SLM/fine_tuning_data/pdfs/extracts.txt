@@ -1,0 +1,1157 @@
+A Simple Guide to Modern 
+Commerce Terminology
+All you need to know about platforms, frameworks, APIs and more
+commercetools.comTable of contents
+A Simple Guide to Modern Commerce Terminology
+1. Understanding modern commerce terminology   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 3
+Why learning the lingo brings business results in modern commerce and beyond.
+2. A snapshot of tech terms  � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 4
+Learn essential technology terms in an easy-to-understand context.
+3. What is a platform?   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 5
+Discover how a platform is defined, the differences between SaaS vs. PaaS and on-premise 
+and cloud, as well as the types of platforms in digital commerce.
+4. What is a framework?   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 11 
+Demystify what a framework is, and differentiate it against programming languages, software, 
+SDKs, libraries and toolkits.
+5. What is an API?  � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 14
+A deep dive into APIs, GraphQL, microservices – and how they function in the commerce 
+world. 
+6. Modern commerce starts with MACH  � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 17
+All you need to know about MACH, the underlying architecture that enables composable 
+commerce with commercetools.
+7. Glossary   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 19
+Revisit the ABCs of digital commerce.
+A Simple Guide to Modern Commerce Terminology
+21. Understanding modern commerce 
+terminology 
+When exploring digital commerce solutions available in the market, it’s not always clear which 
+underlying technology stack commerce vendors are based on. Some are described as a 
+framework, others as a platform, yet others are API-based. 
+ 
+There’s a great deal of confusion when trying to pin down what’s what – and that complicates 
+the selection process for business and technical leaders. 
+ 
+The first step in this journey is to become acquainted with frequently mentioned terms in 
+commerce technology.
+ 
+This guide aims to unpack the difference between a platform and a framework, define what 
+APIs are, and clarify the lingo for modern commerce’s underlying technologies.   
+A Simple Guide to Modern Commerce Terminology
+32. A snapshot of tech terms
+Before jumping into definitions, let’s embark on an everyday scenario in the life of a 
+developer.  
+A developer has to build an eCommerce website . 
+First, the developer needs a platform  that provides the hardware and the software tools 
+required to build and run an application throughout its lifecycle. 
+At the same time, the developer needs a framework . In simple words, a framework acts 
+as a skeleton in any application. A software framework provides a standard way to build 
+and deploy applications, so the developer doesn’t have to start from scratch. A platform 
+builds on the skeleton of the framework. The actual work – connecting the dots – is done 
+by the application. 
+Platform providers typically offer Software Developer Kits (SDKs)  written in various 
+programming languages to build an application with ease. An SDK usually contains a set 
+of classes, utilities for debugging, libraries and sample code to make integration faster 
+and easier. 
+While creating the frontend  (the customer-facing eCommerce website), the developer 
+has to connect it to a  backend  (the data access layer that holds products, orders and 
+customer information). 
+There are two ways commerce platforms bring frontends and backends together that 
+affect the eCommerce website and user experience performance: monolithic or headless 
+platforms. 
+Monolithic platforms  manage backends and frontends as tightly coupled systems. While 
+the developer can quickly deploy online stores – albeit with a template-like look and feel 
+– these monolithic platforms lack the flexibility and speed for bespoke requirements. 
+Headless platforms  decouple the frontend and backend, enabling communication 
+between them via Application Programming Interfaces (APIs) . With a headless 
+platform, the developer can easily create new designs, perform UX changes and add new 
+touchpoints independently from the backend. It also gives the developer more freedom 
+and creativity to develop unique experiences without worrying about how changes to 
+the frontend affect the backend. 
+Now that we understand the most critical technical elements from a developer's point of 
+view, let’s dive deeper into these definitions and other relevant terms to your eCommerce 
+journey.
+A Simple Guide to Modern Commerce Terminology
+43. What is a platform? 
+A platform provides both the hardware and the software tools required to run an application 
+– be it a standalone program or one built on a framework. Mostly, a platform comes in the 
+flavor of Platform-as-a-Service (PaaS), meaning that the code-base of the platform software 
+itself is not distributed or licensed. Rather, it is part of a hosted solution running in a cloud 
+that can be accessed via APIs or GUIs. 
+ 
+Therefore, a platform is an environment where developers build the software and where it 
+runs throughout its lifecycle. 
+Developers might shape the communication between application and platform by using 
+direct API calls or an SDK to do the heavy lifting. 
+ 
+Real-life platform examples are Windows, OS X, Android, iOS, etc.
+SaaS versus PaaS models
+Enterprises look to cloud adoption to maximize cost savings, reduce risk and innovate rapidly. 
+Modern platforms, eCommerce and otherwise, revolve around SaaS (Software-as-a-Service) 
+and PaaS (Platform-as-a-Service).
+SaaS PaaS
+• Provides a ready-to-use, out-of-the-box 
+solution for your business needs entirely 
+managed by a vendor and accessed via 
+a web browser. 
+• The vendor controls the entire stack 
+(frontend and backend). 
+• Businesses depend on the provider to 
+add extensions and improve features and 
+integration options.• Provides a platform to build, deploy, 
+migrate and manage its software 
+products. 
+• Ideal for projects that require a high 
+degree of customization and integration 
+flexibility. 
+• No limits to customization or integration. 
+• Usually API-based systems. 
+Businesses can use SaaS and PaaS in combination. In eCommerce, you would choose a 
+SaaS solution for your online store and extend it with custom extensions, such as Java code. 
+The Java code would be made available via a PaaS. The same would be conceivable for 
+additional database services that go beyond the functionality offered by the SaaS offering.
+A Simple Guide to Modern Commerce Terminology
+5Cloud computing deployment models: On-premise versus 
+cloud
+A platform can be hosted on-premise, using the public cloud or a hybrid model. The 
+fundamental difference between cloud and on-premise software is where it resides.
+On-premise Cloud
+• Installed locally on a business’ computers 
+and servers, keeping the IT infrastructure 
+on-site. 
+• The company manages the IT 
+infrastructure by itself or through a third 
+party, paying for computing power and 
+having complete control over its data.
+• In addition to high operating costs, on-
+premise installations are hard to scale, 
+especially in the commerce environment, 
+where there may be peaks in traffic in a 
+short timeframe. • Hosted on a vendor’s server such as 
+Google Cloud Platform (GCP), Amazon 
+Web Services (AWS) or Microsoft Azure.
+• Increased reliability, scalability and 
+performance through distributed data 
+centers. 
+• Improved redundancy against 
+downtime and better response times 
+since user requests are directed to the 
+geographically closest server.
+• Distributed capabilities act as a safety 
+mechanism against attackers, who can’t 
+easily compromise an entire system if 
+they gain access to one component.
+As public cloud infrastructure goes, you can spot two significant differences: 
+On the cloud In the cloud
+• When a platform is hosted within a virtual 
+environment (VM) on the cloud. 
+• While this offers an improved speed and 
+flexibility than on-premise, the software 
+running in a virtual machine does not 
+have direct access to the hardware, 
+which degrades performance and adds a 
+step between cloud-native applications 
+and other (micro)services. • Also known as cloud-native , the 
+software sits directly in a cloud-based 
+infrastructure such as AWS or GCP. 
+• Full advantage of economies of scale, 
+multi-zone redundancy and maximum 
+uptime. 
+• Since updates are deployed seamlessly 
+and in the background, there’s no need 
+to keep up with versions and deal with 
+disruptive update processes.
+Overall, cloud-native applications provide better maintainability and security, autoscale 
+capabilities and lower total cost of ownership (TCO) from the outset. 
+A Simple Guide to Modern Commerce Terminology
+6Multi-tenancy versus single tenancy
+Platforms are often used as scalable multi-tenancy systems, with a single software instance 
+and infrastructure that serves multiple customers. Think of single tenancy as a row of shops 
+with each business operating in its own building. Multi-tenancy, on the other hand, is a high-
+rise office building with different companies spanning various floors. 
+ 
+That means running costs are shared and performed by experts, so you don’t need to worry 
+about maintenance, upgrades or additional fees. Multi-tenant systems don’t require the 
+provisioning of dedicated environments either. 
+ 
+Frontend versus backend 
+The frontend and backend are integral parts of commerce software. While the frontend is 
+about the customer-facing presentation layer (aka the “head” or experience), the backend is 
+the data access layer, where data such as prices, promotions, product images, order details 
+and fulfillment are stored. 
+ 
+In short, the frontend defines how the online shopping experience feels, and the backend 
+defines how it functions.
+In context: Platforms in digital commerce
+Gartner defines the digital commerce platform as “the core technology that enables 
+customers to purchase goods and services through an interactive and self-service 
+experience. The platform provides necessary information for customers to make their buying 
+decisions, and uses rules and data to present fully priced orders for payment. The platform 
+must have out-of-the-box (OOTB) capability or the APIs to support a self-service, interactive 
+commerce experience.”
+ 
+A Simple Guide to Modern Commerce Terminology
+7Since the early 2000s, commerce technologies have faced numerous innovation waves. 
+Today's digital jungle adds significant pressure on brands to change at a faster pace than 
+ever before. As identified by Gartner, there are two co-existing streams of commerce 
+technologies: 
+• Legacy, monolithic platforms that provide out-of-the-box (OOTB) capability.
+• Modular, composable, API-based digital commerce solutions based on based on 
+headless and microservices architecture. 
+The main difference between the two is how they connect the frontend and backend: 
+Monolithic platforms
+Also known as software suites, legacy platforms or closed SaaS systems, monolithic platforms 
+bring the frontend and backend together into tightly coupled systems. 
+At a glance: 
+• Changes in the frontend affect the backend, and vice-versa.
+• Functions such as pricing and orders are in the same code-base and deployed as a 
+single, large application. 
+• Out-of-the-box, ready-made, template-like solution leads to lackluster experiences. 
+• Vendor lock-in. 
+A Simple Guide to Modern Commerce Terminology
+8Headless platforms
+Also known as pre-integrated or API-based platforms, a headless solution decouples the 
+frontend and backend. 
+At a glance:
+• Made up of unique services, each with its own code-base, in a mix of SaaS and PaaS.  
+• Releasing new functions, updates, etc., is done without dependencies.
+• A microservice-based approach breaks down functionalities into granular pieces, so they 
+are nimbler and more reliable while delivering faster responses and can be deployed 
+more frequently. 
+• Frontend and backend communicate via granular APIs. 
+• Provide modular, composable commerce based on a best-of-breed approach. 
+• No vendor lock-in.
+Modern commerce is synonymous with API-first headless  commerce, enabling businesses 
+to achieve higher reliability, automatic scalability and lower TCO to move the needle toward 
+growth. 
+A Simple Guide to Modern Commerce Terminology
+9 
+Takeaways
+• A platform provides both the hardware and the software tools required to run an 
+application – be it a standalone program or one built on a framework. Modern platforms 
+of any kind revolve around SaaS, PaaS or a combination of both. 
+• A platform can be hosted on-premise or using a public cloud. To be cloud-native, a 
+company’s software and platform sit directly in a cloud-based infrastructure such as AWS, 
+GCP or Azure. 
+• A piece of software is composed of a frontend (consumer-facing presentation layer) 
+and the backend (data access layer). Commerce platforms differ in how frontends and 
+backends are connected. 
+• Traditional commerce platforms, also known as monoliths, bring the frontend and 
+backend into tightly coupled systems. While they were pioneers decades ago, their 
+architecture doesn’t easily allow for customizations, extensibility and other critical 
+requirements of today’s commerce. 
+• Headless commerce platforms decouple the frontend and backend, enabling companies 
+to release new functions, updates and extensions at high velocity. Frontends and 
+backends communicate via granular APIs, enabling companies to stay ahead of the curve.
+ 
+A Simple Guide to Modern Commerce Terminology
+104. What is a framework? 
+A software framework is a skeleton that includes preset tools, libraries, software development 
+kits (SDKs) and other components. Consider a framework as a standardized template with 
+components that include standard repetitive tasks for a specific programming project, 
+removing unnecessary and uncreative busywork. The crowd wisdom of open-source 
+frameworks to answer developers’ questions also saves time. 
+ 
+Just like programming languages, a framework serves specific purposes; some will be 
+designed for frontend, such as Vue.js and Angular, while others are meant for the backend, 
+such as Spring (used by SAP Hybris), Ruby on Rails (used by Shopify), Django, Node JS and 
+more.
+ 
+Framework versus software
+Software  is a set of instructions that run on a machine. A framework is also software 
+developed and used by developers, such as web applications, data science and mobile 
+development frameworks, but works as a basis for developing other software. 
+ 
+Framework versus programming language
+While a framework is the organizational structure of any application's code, a programming  
+language  is a set of written rules, phrases and patterns to provide commands to computers 
+on what to do next. It’s like French and English, but for computers. Examples include Java, 
+C#, Python, PHP, etc. 
+ 
+Framework versus library 
+A library  is a packaged, reusable chunk of code designed to perform a specific function – or 
+set of closely related functions. A developer inserts a library into an application and calls it via 
+an API when that function is required, without writing the code from scratch. Like frameworks, 
+a library enables developers to lower development time and costs by encouraging code 
+reuse. Think of a framework as an abstract form of a library.
+At the same time, a framework can contain one or more libraries, and libraries can also be 
+standalone and don’t need to sit within a framework to be functional.
+A Simple Guide to Modern Commerce Terminology
+11Framework versus toolkit
+Toolkits  only contain classes and don’t specify the structure as a framework, working as a 
+more focused library with a defined and specific purpose. This term has fallen out of favor 
+and is used almost exclusively for graphical widgets and GUI (graphical user interface) 
+components. 
+Framework versus SDK
+While a framework serves as the foundation for developing applications, an SDK (Software 
+Development Kit) provides the necessary tools for application development, consisting 
+of a set of classes, utilities for debugging and sample code to make building a platform 
+application easier. It’s like a meal package at a fast-food restaurant containing many things 
+neatly packed. 
+ 
+As with frameworks, developers download these SDKs to their systems and start working 
+locally. In contrast to frameworks, however, an SDK has no use on its own but is only helpful 
+when writing applications for one particular software or platform. In other words, an SDK is 
+only a tool to write an application, whereas a framework becomes part of an application.
+ 
+In summary, SDKs and frameworks complement each other, and the choice of SDK depends 
+on the framework or programming language used. 
+ 
+Framework versus platform
+Sometimes framework and platform are used interchangeably, though they aren’t the same 
+thing. While the framework provides a generic structure as a skeleton to code software, 
+a platform offers both the hardware and the software tools needed to build and run an 
+application.  
+A Simple Guide to Modern Commerce Terminology
+12In context: Frameworks in digital commerce
+Frameworks, in general, allow developers to optimize their work; however, the level of 
+optimization and substantiality of results depends on the environment. When the frontend 
+and backend are decoupled, developers can create the software from scratch and have 
+more freedom to produce outstanding experiences. 
+ 
+Frameworks are helpful for developers working on monolithic platforms, too. Yet, they mainly 
+fulfill small chunks of code for specific functions due to the fixed nature of the system.
+ 
+For frontend developers, for instance, using a framework such as Vue.js or Angular means 
+creating a unique look and feel in an eCommerce website while avoiding repetitive tasks 
+such as persistence, routing and session management. This is particularly beneficial when 
+combined with a headless commerce solution. 
+ 
+The use of SDKs in the context of digital commerce is to allow easy integration of a 
+company’s eCommerce application with the API provided by a headless solution. 
+ 
+Takeaways
+• A software framework is a skeleton that includes preset tools, libraries, software 
+development kits (SDKs) and other components. 
+• In commerce, frameworks enable developers to create unique software for frontends and 
+backends without running into repetitive tasks that slow down their pace. 
+A Simple Guide to Modern Commerce Terminology
+135. What is an API?  
+Application Programming Interfaces, or APIs, are interfaces built on top of the software, an 
+application or a library that allow two systems to connect and communicate. 
+ 
+To illustrate how APIs work, imagine you’re in a restaurant and want to order a dish. The waiter 
+collects your order, delivers it to the chef, and then brings your order when ready. In this 
+scenario, the waiter represents the API – the communication bridge between two parties. 
+ 
+At a glance, an API: 
+• Is an interface on top of an application or library that allows callers to execute 
+functionality (e.g., calculate tax, query inventory, etc.) or create/read/update/delete data 
+(products, orders, prices, etc.). 
+• Enables companies to consume functionality and data as a service over an API, rather 
+than downloading, installing, configuring, running and maintaining large stacks of 
+software and hardware. 
+• Allows outside developers to wire performance and data into their applications with 
+granular pieces of functionality, rather than adopting a large one-size-fits-all software 
+package. 
+• Lets different “heads” (frontends) request the same content from a backend and render it 
+differently, according to the needs of a particular device or channel. 
+• Is the thread that ties functionality between your backend and frontend to power your 
+commerce experience.
+Skills Apps
+Search CRM API LayerBusiness
+IntelligenceWeb App
+CMS
+commercetools
+Composable Commerce
+A Simple Guide to Modern Commerce Terminology
+14REST APIs
+Representational State Transfer (REST) is a set of rules developers follow when creating an 
+API, applying HTTP methodologies to retrieve, edit, create and remove data. Existing HTTP 
+methodologies mean developers do not need to install libraries or additional software to take 
+advantage of their design. REST APIs are the default means of exposing commerce-related 
+data and functionality from microservices.  
+ 
+Microservices
+The microservices architecture combines loosely coupled, independently deployable small 
+components or "services" to compose a single, more complex application. These applications 
+deliver faster responses, are more reliable and can be deployed frequently. Microservices 
+have a single purpose: to solve a granular problem and interact with the world via well-
+defined APIs. 
+APIs versus GraphQL 
+Although REST APIs provide an excellent backend solution, they pose problems for frontend 
+developers when identifying the right APIs to perform core functions and how to interpret 
+data. Over-fetching or under-fetching data are recurring API problems that may cause 
+performance issues. 
+ 
+Imagine if an Apple Watch fetches an entire two-megabyte payload over a cellular network 
+every time a user wants to look at product details. The same thing happens when the API 
+under-fetches data. This requires multiple, serial round-trip calls with limited computing 
+power or bandwidth, which can be very expensive or consume too much power. 
+ 
+This is what GraphQL is primed for: It allows developers to retrieve the exact data from 
+any source. As a data query language for APIs, GraphQL gives developers the accurate 
+information they need, removing the need to handle large quantities of unnecessary data 
+and creating workarounds to reduce API calls.
+ 
+Since it serves as a layer on top of APIs, GraphQL complements instead of replaces APIs. 
+ 
+APIs versus webhooks
+As an API enables two-way communication between software applications driven by 
+requests, a webhook is a lightweight API that powers one-way data sharing triggered by 
+events. Instead of one application requesting another to receive a response, a webhook 
+is a service that allows one program to send data to another as soon as a particular event 
+takes place. For example, a webhook sends a notification when an event occurs, such as a 
+processed payment. 
+A Simple Guide to Modern Commerce Terminology
+15In context: APIs in digital commerce 
+Commerce APIs enable communication between frontends (website, mobile apps, IoT 
+devices, etc.) and the backend (data layer), and manage typical commerce functions:
+• Inventory API:  Read and adjust inventory information for product variants using an API.
+• Order API:  Access order history for one-time purchases, subscription orders, import 
+orders from third-party distribution channels, etc. 
+• Product API: Manage physical products, including their variants and images.
+• Transaction API: Access financial transactions for orders and donations.
+API-first, microservice-based commerce platforms offer a flexible way for businesses to tailor 
+experiences. With the hybrid “build and buy” approach, companies can use commoditized 
+functions (e.g., cart, orders) as an API provided by a headless platform and build unique 
+features on top to differentiate. 
+ 
+Using GraphQL and webhooks on top of APIs, companies can maximize efficiency and 
+improve performance for specific use cases, channels and devices. 
+ 
+Headless platforms are increasingly unbundling large offerings into granular APIs, such as 
+checkout, discounts, etc., addressing the real needs of big brands and retailers to build their 
+commerce stacks from scratch for awe-inspiring customer experiences. 
+Takeaways
+• Application Programming Interfaces, or APIs, are interfaces built on top of the software, 
+an application or a library that allow two systems to connect and communicate. APIs 
+are the thread that ties functionality between your backend and frontend to power your 
+commerce experience. 
+• GraphQL takes a step forward in pinpointing the exact data for faster performances, 
+laying on top of APIs. 
+• API-based platforms are taking over the monolithic approach as the digital commerce 
+solution of the future. 
+A Simple Guide to Modern Commerce Terminology
+166. Modern commerce starts with 
+MACH and commercetools 
+    Microservices-              API-first                         Cloud-native                 Headless               
+    based
+These core concepts form MACH , the underlying architecture of modern commerce 
+technology.
+MACH architecture was created to provide a high level of control and agility for any business 
+that wants to innovate rapidly. In this modular environment, companies can ditch monolithic, 
+legacy platforms and respond to customer needs on the fly. 
+This innovative architecture brings a raft of benefits: 
+• With microservices , companies deploy granular services that serve a specific purpose. 
+Because microservices are by default independent services exposed via APIs, it’s much 
+faster and easier to implement new features, extensions and updates, creating a bespoke 
+experience from end to end.  
+• With an API-first approach , companies easily bridge communications between various 
+frontends and a centralized backend. GraphQL helps pinpoint the exact data needed in 
+those interactions for leaner and faster frontend performance. 
+• With a cloud-native solution , companies autoscale infinitely and say goodbye to website 
+crashes due to traffic spikes. 
+• With headless , companies decouple the ever-growing number of frontends from the 
+backend for maximum flexibility and speed. It helps create fast websites, handle intricate 
+product data, customize products, launch short notice promotions and release new 
+functions without headaches. 
+A Simple Guide to Modern Commerce Terminology
+17Composable commerce  is how businesses consume MACH, picking and choosing the 
+best-of-breed  components in a commerce solution, frontend and payment processor that 
+perfectly fit their requirements. Think of it as LEGO bricks that provide infinite combinations, 
+offering custom, unique ways to differentiate your business. 
+This is what commercetools, the inventor of MACH, can deliver for you. 
+commercetools offers headless commerce solutions, services and a portfolio of many
+products that can be individually or collectively used:
+• commercetools Composable Commerce  is the backend. It functions as the core of the 
+commerce ecosystem and consists of over 300 of the best commerce APIs.
+• commercetools Frontend  helps you create stunning frontends with rich content 
+experiences to differentiate your brand, as it is quite flexible and easy to customize.
+• commercetools for Growth:  growing merchants and brands competing against larger 
+retailers can go headless with pre-bundled kits (backend + frontend + search) that offer 
+the best tech stack components to build your MACH-based commerce architecture.  
+A Simple Guide to Modern Commerce Terminology
+187. Glossary
+• Application Programming Interface (API):  An interface built on top of the software, an 
+application or a library that allows two systems to communicate. 
+• Backend:  The data layer where the product and customer data is stored and managed. 
+• Best-of-breed: A concept whereby you can pick and choose the best commerce 
+components that fit your business needs without vendor lock-in. 
+• Cloud infrastructure:  When a company’s platform is hosted on a vendor’s server such as 
+Google Cloud Platform (GCP), Amazon Web Services (AWS) or Microsoft Azure.
+• Cloud-native:  When a company’s software sits directly in a cloud-based infrastructure.
+• Commerce APIs : REST APIs enable communication between eCommerce frontends and 
+the backend, managing commerce functions like inventory, order, etc. 
+• Composable commerce:  A development approach of selecting best-of-breed 
+commerce components and "composing" them into a custom application built for 
+specific business needs. It’s also how businesses consume MACH. 
+• Framework: A software-only skeleton that includes preset tools, libraries, SDKs, etc.
+• Frontend: One or more consumer-facing channels, such as a website, IoT device, etc.
+• GraphQL:  A data query language for APIs to retrieve the exact data from any source.
+• Headless:  A headless commerce solution decouples the frontend UX/UI from the 
+backend, making it easier and faster to build cutting-edge shopping experiences.
+A Simple Guide to Modern Commerce Terminology
+19• Library:   A collection of classes and functions. 
+• MACH:  The underlying architecture of modern commerce platforms based on 
+microservices, APIs, cloud-native and headless. Invented by commercetools. 
+• Microservices:  Architecture that combines loosely coupled, independently deployable 
+small components to compose an application. It’s exposed via well-defined APIs. 
+• Monolithic platforms:  All-in-one commerce SaaS solution sold as one unit. 
+• Multi-tenancy: A single software instance and infrastructure that serves multiple 
+customers. 
+• On-premise: When a company’s platform is installed locally, on a business’ computers 
+and servers, keeping the IT infrastructure on-site. 
+• Platform:  Provides both the hardware and the software tools needed to run an 
+application – be it a standalone program or one built on a framework.
+• Platform-as-a-Service (PaaS):  Provides a platform to build, deploy, migrate and manage 
+software products. 
+• Programming language:  A set of written rules, phrases and patterns to provide 
+commands to computers on what to do next.
+• Representational State Transfer (REST):  A set of rules to create APIs. 
+• Software:  A set of instructions that run on a machine. 
+• Software-as-Service (SaaS):  Provides out-of-the-box services managed by a vendor. 
+• Software Development Kit (SDK):  Provides the necessary tools for application 
+development in a neat package. 
+• Software suites: A synonym to monolithic platforms.
+• Toolkit: Contains classes and doesn’t specify the structure, working as a more focused 
+library with a defined and specific purpose. 
+• Webhook:  A lightweight API that powers one-way data sharing triggered by events, 
+allowing one program to send data to another as soon as a particular event occurs.
+A Simple Guide to Modern Commerce Terminology
+20About commercetools
+commercetools is a next generation software technology company that offers a true cloud 
+commerce platform, providing the building blocks for the new digital commerce age. Our 
+leading-edge API approach helps retailers create brand value by empowering commerce 
+teams to design unique and engaging digital commerce experiences everywhere – today 
+and in the future. Our agile, componentized architecture improves profitability by significantly 
+reducing development time and resources required to migrate to modern commerce 
+technology and meet new customer demands.
+The innovative platform design enables commerce possibilities for the future by offering the 
+option to either use the platform’s entire set of features or deploy individual services,   la 
+carte over time. This state-of-the-art architecture is the perfect starting point for customized 
+microservices, enabling retailers to significantly reduce time-to-market for innovative 
+commerce functionalities.
+commercetools has offices across the US, Europe, and Asia Pacific, with headquarters in 
+Germany. Since its founding in 2006, commercetools software has been implemented 
+by Fortune 500 companies across industries, from retail to manufacturing and from 
+telecommunications to fashion.
+www.commercetools.com
+Copyright ©2022 commercetools GmbH - All rights reserved. commercetools, commercetools Commerce Platform, and the commercetools logo 
+are trademarks or registered trademarks of commercetools GmbH. All other trademarks are the property of their respective owners.Munich - Berlin - Jena - Cologne - Amsterdam - Zurich - London - Valencia - Durham NC - Melbourne - Singapore - Shanghai
+A Simple Guide to Modern Commerce Terminology
+21
+commercetools’ 
+Resiliency
+commercetools.comContent
+commercetools’ Resiliency
+Summary   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 3
+Basic Architecture   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 4
+Cloud Services   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 4
+Regions and Availability Zones   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 5
+Independent APIs Backed by Microservices   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 7
+Database Sharding   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 8
+Command Query Responsibility Segregation (CQRS)   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 9
+Multi-tenancy   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 10
+Cloud Service Security   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 11
+Microservices vs. Monoliths: Resiliency Within   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 11
+Measures Against Single Points of Failure   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 12
+Traffic Overload   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 12
+Software Bug or Infrastructure Misconfiguration   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 13
+Software Bug   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 13
+Infrastructure Misconfiguration   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 14
+Stateless Component Failure   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 14
+Database Failing   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 14
+Other Services Failing   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 15
+Backup Concept   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 15
+Recovery Concept   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 16
+Support   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 19
+Support Services   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 19
+Customer’s Role   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 20
+Continued Resiliency   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 21
+Appendix A: Glossary   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 22
+Appendix B: Technical Stack Example   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 23
+About commercetools   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 24
+Contact Us   � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � � 24
+commercetools’ Resiliency
+2Summary
+In this document, we demonstrate the resiliency of commercetools in both service availability 
+and data recovery. Our products have supported companies through multiple Black Fridays, 
+Cyber Mondays, dedicated product launches, and all the days in between. Through all of 
+this, product outages are extremely rare.
+commercetools’ portfolio is divided into several SaaS products. Each product is built and 
+delivered natively in the cloud as a multi-tenant service. This approach toward software 
+design and development is fundamental to how we build and deliver products. Each of 
+these products comes with an SLA and is built via a combination of microservices, and the 
+functionality is accessible via API and business user tooling. commercetools has dedicated 
+years to building a scalable, robust, and secure set of products that are available in a diverse 
+set of geographical regions and are resilient against issues and outages. In the following 
+document, we explore the basic architecture of the commercetools solution, identify key 
+aspects in the microservices approach we follow, explore our backup and recovery concepts, 
+and describe our outstanding customer support services. At commercetools we are 
+confident in our products, and by the end of this document, we hope you feel confident in 
+them, too.
+commercetools’ Resiliency
+3Basic Architecture
+This section details the multi-tenant, cloud-native, microservice architecture deployed by 
+commercetools. This architecture follows the current industry best practices and allows us to 
+be fast and flexible in our design and resilient against failures. The image below demonstrates 
+the forward evolution of software architectures, including commercetools’ microservices-
+based, cloud-native architecture.
+Cloud Services
+Cloud service providers supply a built-in toolkit of highly-available and scalable components 
+that can be leveraged to create complex products. commercetools offerings are available in 
+Google Cloud Platform (GCP) and Amazon Web Services (AWS). The image below provides a 
+brief overview of how the commercetools’ architecture works together in unison.Managed
+Hosting
+• Hosted single-tenant 
+   monolithsOld Platforms,
+New Tooling
+• New tooling tooling on
+   top of legacy platforms
+• “Cloud” used for marketing
+• Single-tenantCommerce Platforms 
+Deployed to IaaS or PaaS
+• Take legacy platform and
+   deploy it to IaaS or PaaS of  
+   your choice
+• Some elasticity beneﬁts but
+   still not “cloud native”
+   architectureNew Cloud-based 
+Monolithic Solutions
+• Multi-tenant but still
+   monolithic
+• Newer platforms built 
+   natively for cloud
+• Target smaller businesses 
+   – not enteprises
+• Targeting primarily 
+   browser-based webshops
+• Metered billing model, 
+   limited elasticityMicroservices-based 
+Cloud Native
+• Independently consumable  
+   APIs backed by microservices
+• Multi-tenant
+• Cloud Native-style 
+   architecture
+• Enterprise-focused
+• Metered billing model
+• Inﬁnite elasticity
+• Self-service sign-up for 
+   services
+• Similar to public cloud models12345
+Business User Tooling
+SDKs
+APIsGet Cart by ID
+Provided entirely byConsumed as a ServiceApplication Development
+Application Packaging
+Container Orchestration
+Infrastructure
+Security
+Load Balancing
+API Management
+High Availability
+Monitoring
+Backup/Restore
+Routine Upgrades
+commercetools’ Resiliency
+4As a customer, you can deploy services that integrate with our offerings, like a front-end, 
+in the cloud vendor of your choosing. These cloud-native services are designed and 
+maintained by the providers and other expert software companies. The cloud provides more 
+resilient performance and allows for significant cost and time savings.
+Regions and Availability Zones
+Cloud service architecture enables the ability for hardware infrastructure to be distributed 
+across the globe via regions. Our services were designed as cloud-native to take advantage 
+of the benefits of cloud service architecture. Each service in our software stack leverages a 
+minimum of three Availability Zones  within each Region . This cloud deployment approach 
+is inherently resilient in protecting against application node failures. Leveraging this ability, 
+hardware failure is not an issue, as it is automatically maintained, and redundancies are kept 
+by the cloud provider.  
+Regions  are independent geographic areas that consist of Availability Zones . Each 
+Availability Zone  is a deployment area for cloud resources and should be considered 
+a single failure domain. These zones have distinct locations with independent network 
+connections and power supplies; however, zones within a region are strategically located to 
+nsure round-trip network latencies of under 1ms in the 95th percentile. Through Availability 
+Zones, cloud deployments have a fully active/active availability within a region. Below is a 
+visual example of how Availability Zones are utilized within a Region.
+Data CenterLow latency resilient 
+ﬁber connectivity
+Data CenterData Center Data CenterAvailability Zone Availability Zone
+Availability ZoneData Center Data Center Data CenterRegion
+commercetools’ Resiliency
+5Being in the cloud does not leverage Availability Zones by default. Customers can choose 
+to deploy an on-premise application into a single zone in the cloud. If the application is not 
+architected/designed to be cloud-native, customers are sometimes locked into this type 
+of deployment model. Deploying an application this way would forgo some of the built-in 
+advantages the cloud can provide. The image below shows how Availability Zones function 
+for redundancy and availability.
+Within each specified region , a minimum of 3x redundancy exists, ensuring that individual 
+service (application, database, etc) is never interrupted regardless of hardware failures, 
+system issues, or zone outages.End UserElastic Load 
+Balancing
+Web Server Appplication Server Database ServerReplicated
+Data LayerAbility to 
+fail overAvoid unnecessary 
+dependenciesAvailability Zone A
+Availability Zone B1
+22
+commercetools’ Resiliency
+6Independent APIs Backed by  
+Microservices
+Our product features are delivered via independent APIs backed by microservices. Each 
+microservice is deployed into the cloud region using Kubernetes and maintains its own 
+application layer, datastore, and infrastructure. This architecture enables expert teams to 
+deploy updates through independent development and release cycles resiliently and quickly, 
+as demonstrated in the image below.
+We have also implemented Continuous Integration and Continuous Deployment (CD/CD) 
+pipelines for our services. This approach enables us to leverage automation and lifecycle 
+monitoring to simplify the process of delivering code changes to production and allow for 
+safe deployment to production within minutes.Multiple releases/day to production
+InfrastrucutureDatastoreApplication
+InfrastrucutureDatastoreApplication
+InfrastrucutureDatastoreApplication
+Products Search etc…
+commercetools’ Resiliency
+7Database Sharding
+Database sharding enables on-demand, horizontally scalable data infrastructure. Distributed 
+systems process and store data in capacities that far exceed the capabilities of any commodity 
+virtual machine. Distributed system architectures commonly partition data, or shard, data into 
+“keyed partitions” distributed over a vast number of virtual machine instances and disks.
+We leverage MongoDB Atlas for our database needs. MongoDB Atlas is a fully-managed, 
+cloud-native, document database-as-a-service with elastic scalability that inherently 
+supports sharding and replication, as demonstrated in the image above. We distribute load 
+across multiple shards, and if load increases, we can increase our ability to handle database 
+interactions by adding additional database instances. MongoDB Atlas is also a multi-could 
+and multi-region offering that leverages at least three Availability Zones in a region, ensuring 
+continued resiliency. Project
+0 - 1000 1000 - 2000 … 9999 - …Carts Products Orders
+commercetools’ Resiliency
+8Command Query Responsibility  
+Segregation (CQRS)
+We leverage the power of Command Query Responsibility Segregation (CQRS) design 
+patterns, which operate under the principle that data is not written the same way it is stored 
+and read. With this pattern, any incoming update requests are processed and turned into 
+multiple events that are received by independent microservices for asynchronous handling. 
+This allows for minimal load and maximum resiliency.
+CQRS dramatically enhances our availability by allowing each datastore to scale according to 
+its own use case-specific needs. Datastores that handle writes are configured very differently 
+from datastores that handle reads. By separating reads from writes, we maintain optimal 
+availability and scalability. This process is demonstrated in the image below.
+Our architecture also takes advantage of two types of data consistency: strong consistency  
+and eventual consistency . With strong consistency , also known as read-after-write 
+consistency, changes are immediately reflected after the API returns a response code. So an 
+immediate read request will reflect the change.  
+With eventual consistency , when an API call performs a modify action on an entity, following 
+the CQRS design pattern, the request is processed, queued, and eventually sent out as an event 
+for handling. The API returns a response code before the changes are processed. An immediate 
+read request may or may not reflect the change, though in time the change will be reflected.
+Leveraging two types of data consistency allows us to minimize load and handle many billions 
+of API requests resiliently.Client EventWrite
+Read
+Materialized
+ViewCommand
+Model
+Query
+Model
+commercetools’ Resiliency
+9Multi-tenancy
+Our products are multi-tenant by design, meaning that multiple customers share the same 
+infrastructure and application resources but do not have access to other customers’ data. To 
+achieve this, each tenant project is provisioned with a unique logical database in our shared 
+MongoDB instances upon creation. The logical databases share the same infrastructure 
+resources but are otherwise separate. We then manage access to these logically separated 
+projects via our API credentials. The image below offers a brief overview of single-tenancy vs. 
+multi-tenancy design.
+Our multi-tenant system has much higher limits for scalability than a single-tenant system. 
+That said, there is always a limit, and a misbehaving tenant can hit these limits. To protect 
+other tenants, such cases are automatically identified, and we limit the number of resources 
+we dedicate to such a tenant (e.g. by shedding load). As we have a resilient, robust, and 
+secure multi-tenant solution, we do not do one-off deployments. This approach enables 
+us to ensure all of our customers in a region are receiving the same experience and all 
+customers immediately benefit from performance improvements and fixes. The image below 
+demonstrates the ways in which our multi-tenant solution is most beneficial for customers.Single-Tenancy Multi-Tenancy
+Dedicated DatastoreOne company Multiple companies
+Dedicated Application Instances
+Shared DatastoreShared Application Instances
+Highest possible security - one stack to 
+manage, not one per tenantAccess functionality any time, 
+instantaneous elasticity
+Higher availability - 
+globally distributed, 
+stack managed by 
+top professionals
+Better support due to one codebase 
+for provider to supportLow TCO. Incremental licensing 
+model, no ﬁxed overheadFrequent 
+product 
+releases
+commercetools’ Resiliency
+10Cloud Service Security
+Cloud service deployments provide optimal environments and streamlined processes to 
+update services with significantly fewer assets to secure. This is also accomplished without 
+the considerable risk of on-premises infrastructure, facilities, and networks to protect, 
+manage, and fund. Our cloud-native services facilitate the rapid deployment of important 
+code revisions to a minimal scope of systems along with drastically reduced time from start to 
+finish for time-sensitive changes.
+Our native cloud services significantly reduce the inventory of infrastructure software 
+to manage and protect with a small footprint of systems to secure, considerably less 
+than on-premises environments. We also avoid the risk of securing servers as hosts by 
+utilizing Kubernetes in the cloud. With our cloud-native services, customers no longer 
+need to oversee the vast scale and complexity of infrastructure, hardware, and scope of 
+vulnerabilities with on-premises services.  
+We remove the burden and risk of enterprise operations and security inherent with on-
+premises systems, facilities, and software. Our customers no longer require the extensive 
+controls, effort, operations, monitoring, and management required to secure on-premises 
+products, upholding our standards of resiliency.
+Microservices vs. Monoliths:  
+Resiliency Within
+This section further details the resiliency of the microservice architecture deployed by 
+commercetools. In a microservice architecture, each microservice is isolated. This means 
+that a failure on one service may or may not impact the entire application. For example, at 
+commercetools, our Import API is a completely separate service from our Audit Log. Each 
+service maintains dedicated databases and runtime applications. They are connected in 
+that when a change is made with Import API, Audit Log records it. If the Import API has a 
+critical failure, it will cease to work because they are independent microservices. This failure 
+is painful for those leveraging the Import API functionality, but Audit Log will continue to 
+function tracking changes made by other services. Similarly, a shop will be unaffected by an 
+Import API or Audit Log service failure.
+commercetools’ Resiliency
+11This is a significant advantage over monolithic designs, in which if any small piece of the 
+system has a critical failure, all components within the system are prevented from running. 
+The impact of failure situations can be minimized through microservice architecture by 
+breaking functionality into individual pieces. This also simplifies the development cycle, as 
+each piece is only meant to perform a specific task. 
+It is important to note that even in microservice architecture, there are some application 
+critical services that may not directly prevent another service from running but stop it from 
+functioning properly. These microservices are Single Points of Failure. An example of this 
+would be our Authentication service. All of our API calls must be authenticated. Not doing 
+so would obviously be a huge security risk. So if the Authentication service were to fail, all 
+other services would still run but could not authenticate. All API calls would respond but 
+with failure codes. In our case, this service is a Single Point of Failure. We highlight these 
+differences between monolithic and microservice architectures to demonstrate the resiliency 
+of microservices in the commercetools solution.
+Measures Against Single Points of Failure
+Given that microservice architecture can have Single Points of Failure services, we guard 
+against various scenarios via carefully crafted, resilient methodologies as outlined in the 
+following sections.
+Traffic Overload
+Traffic overload is always a concern for a multi-tenant SaaS product. Caching data is a 
+great way to lessen the burden of heavy traffic. We ask our customers to cache as much 
+information as possible, and we also do internal caching for reads. Of course, writes cannot 
+be cached, but they are distributed based on individual customer demands.
+Even with safeguards, unexpected traffic spikes do happen. We have several preventative 
+measures in place to guard against traffic overload. To mitigate potential issues, we always run 
+our services with a buffer of resources. We try to keep resource usage to around 50% of the 
+Example graph of write requests color coded per project
+commercetools’ Resiliency
+12available amount. This provides the first layer of defense against a traffic spike. Being cloud-
+native allows us to auto-scale to quickly adapt to growing traffic. Our stateless Kubernetes 
+nodes can up-scale quickly (about 2 minutes for a new node and less for individual 
+applications). While our MongoDB Atlas databases take a bit longer to adapt, they can also 
+auto-scale when needed.
+Additionally, we use background processing whenever possible. While in some cases it’s 
+critical that an API call synchronously processes the response, other work can be performed 
+asynchronously. This work can be put into a queue and handled via background processes.  
+The queued changes are not updated all in parallel. This approach would unnecessarily 
+tax the system. Instead, our background processes can pull updates off the queue in small 
+batches to lessen application load. In the case of a failure, the queuing mechanism enables 
+retries without impacting the other updates.
+Software Bug or Infrastructure Misconfiguration
+In any software application, a failure scenario can be introduced by a software bug or 
+infrastructure misconfiguration of the software. We have a multi-tiered methodology to guard 
+against these types of issues from affecting production environments.
+Software Bug
+First, we do code reviews on every change that is delivered. At a minimum, we need two 
+approvals on every code review. This ensures that at least two developers other than the 
+author have seen and verified the changes. Then we run extensive test runs before the 
+code is deployed to staging environments. These automated test suites validate new code 
+behavioral correctness and guard against behavioral regression.
+Leveraging CI/CD methodology, we deploy multiple times a day with small change sets. First, 
+we deploy to a staging environment and validate. The validation of a change takes as long as 
+required. We will not rush a change into production.
+After validation, we deploy to production. We have the ability to deploy the change to only 
+a subset of our overall traffic set. For example, we can deploy a change where only 1% of 
+our overall production traffic will encounter that behavioral change. Once the behavior 
+is validated, we can roll it out to a larger segment of the traffic base. Not all changes are 
+deployed incrementally, but this is a good way to ensure higher-risk changes have minimal 
+negative impact should an issue arise.
+commercetools’ Resiliency
+13If a bug makes it into a production environment, we can quickly identify the change causing 
+the failure and roll it back to a working version. The process of rolling back to a working 
+version can be done in a matter of minutes.
+Infrastructure Misconfiguration
+Our infrastructure and configuration is versioned and applied during a deployment. Should a 
+misconfiguration be introduced, we can easily roll back to a previous version. For time-critical 
+situations, we can apply manual changes. These changes are always done with at least two 
+engineers managing the change.
+Stateless Component Failure
+We have also architected against a component or service within our product fail. Our 
+services (e.g. those handling API calls) are always stateless and deployed on a multi-zone 
+Kubernetes (EKS for AWS and GKE for GCP) cluster. This means that a single instance of 
+the service failing, due to a hardware failure or software bug, will only affect the API calls it 
+is currently handling. The failed instance will be quickly taken out of the load balancer and 
+replaced by Kubernetes.  
+If an entire availability zone fails, the load balancer will redirect the traffic to another 
+availability zone. Because we always keep extra resources on hand, this availability zone will 
+be able to handle the increased traffic load while the Kubernetes cluster auto-scales for 
+increased load and repairs the damaged zone. This effectively minimizes the impact of these 
+types of failures.
+Database Failing
+Another scenario we prepare against is inaccessible data due to database failure. Most of 
+our data is stored in cloud-native databases, specifically MongoDB Atlas. MongoDB Atlas is 
+a state-of-the-art cloud-native managed service that provides automatic recovery for most 
+issues. The database is deployed in a cluster of three nodes each in an independent zone 
+(separate location and hardware resources) within a cloud region. If any one zone fails, traffic 
+is automatically redirected to one of the other availability zones. Additionally, MongoDB has 
+a full support team at the ready should any issue not automatically recover. In a worst-case 
+scenario that requires a data rebuild, we can restore from a saved data backup.
+commercetools’ Resiliency
+14Other Services Failing
+Similar to a managed database, we will sometimes leverage other state-of-the-art solutions 
+from cloud providers (e.g Load Balancers). This ensures that we always have the best 
+solution to solve the problem and don’t over-burden our engineers with creating an in-house 
+solution when one already exists. We always ensure that the services deployed deliver high 
+availability, leveraging multiple cloud availability zones in a region.
+Backup Concept
+On a high level, a commercetools solution consists of data, infrastructure, and the 
+application itself. A guiding principle behind our approach is to build solutions that can 
+function as stateless as possible, as this is a key driver for scalability, reliability, and resiliency. 
+Consequently, the backup of data is the core element of commercetools’ backup and 
+recovery plan.
+A large segment of our data is persisted within MongoDB databases. Any other data-
+handling technology of the platform is dependent on that data. commercetools performs full 
+database backups with incremental backups in-between. In addition, disk snapshots and hot 
+incremental backups are performed.
+Our practice is to follow the 3-2-1 backup rule, as demonstrated in the image above. This 
+rule states that we keep at least 3 copies of our data and store 2 copies on different storage 
+media with 1 of them located offsite. The disk snapshot process is fully automated and occurs 
+every six hours. We make a full encrypted copy of all persisted data and replicate it across 
+multiple Google Cloud (GCP) or Amazon Web Services (AWS) regions within the same 
+compliance geography. Each individual backup is stored for 30 days.3x3-2-1 Backup Rule
+Maintain at least 
+3 copies of your data2x
+Keep 2 copies stored at 
+separate locations1x
+Store at least 1 copy at 
+an oﬀ-site location
+commercetools’ Resiliency
+15Recovery Concept
+While our backups are performed automatically, the data recovery process is manual. This 
+is because each individual incident is unique and requires different actions to ensure the 
+services are appropriately restored. Whatever the incident, we are held to our SLAs for RPO 
+and RTO to ensure timely restoration of functionality.
+In-Region Recovery
+As mentioned earlier, we work hard to guard against an issue making it into production. But 
+in the rare cases that an issue does make it into production, we are able to quickly identify 
+it and roll back to a previous working version within minutes, often mitigating the problem 
+before customers are aware or impacted. 
+If a version roll-back is not an available solution, we may need to create and deploy a fix for 
+the issue. While the time required to create a fix varies, deployment of the fix can be done 
+within minutes.
+In rare circumstances, a critical issue could require the redeployment of a service within 
+the region where the issue exists. The complexity of this depends upon the service and will 
+follow a similar path as multi-regional recovery but isolated to the affected service.
+Multi-regional Recovery
+At commercetools we can recover to a separate region should the situation demand it. This 
+recovery would be a multi-phase process. While not all of our products follow the same exact 
+procedure, below is an example of areas where we can perform a complex recovery in a 
+separate cloud region.
+US-CENTRAL1
+EU-CENTRAL1 EU-CENTRAL1-A EU-CENTRAL1-B EU-CENTRAL1-CUS-CENTRAL1-A US-CENTRAL1-B US-CENTRAL1-C
+commercetools’ Resiliency
+16It is worth noting that regional outages affect all SaaS applications running within that region, 
+regardless of the vendor deploying the application. Recovery of our services may not be 
+enough to restore the functionality of your solution.
+• Data Recovery  
+We leverage the disk snapshots to expedite the recovery process of customer data. These 
+snapshots will then be directly converted into a new virtual disk within any region and zone 
+of the same cloud provider on the same continent and directly attached to a new MongoDB 
+cluster. Leveraging native cloud services eliminates the need to install or sync any data 
+during recovery, expediting the overall process. 
+ 
+Any other data, such as platform configuration data, is stored within a Git repository. This 
+information is replicated live across multiple data centers and is pulled directly into the 
+newly set up persistence.
+• Infrastructure Recovery  
+All infrastructure details are managed through Terraform and tracked through Git 
+repositories. These Terraform files allow for bootstrapping all MongoDB virtual machines, 
+Kubernetes clusters, ElasticSearch services, and all other resources through the execution 
+of a Terraform script against the new cloud region. 
+ 
+As part of the regional setup, Terraform specifications are stored in a Git repository that is 
+replicated live across multiple data centers and tracked. Any deviations from the default 
+configurations that are needed to run this particular platform are deployed directly to the 
+new region.
+• Application Recovery  
+Once all infrastructure is provisioned and the snapshots are converted to virtual disks, the 
+process of installing the commercetools’ microservices begins. 
+Deploying the microservices follows an automated process similar to the standard CI/CD 
+deployment for all changes. During the standard CI/CD process, the deployment retrieves 
+a set of Helm charts from the commercetools Git repositories. These Helm charts contain 
+all details on how to deploy a specific microservice along with instance-specific scaling 
+parameters. Executing these Helm charts includes the following:
+commercetools’ Resiliency
+171. Building Docker containers
+2. Sending containers to docker registry
+3. Deploying docker containers to Kubernetes
+4. Configuring Kubernetes
+The docker registry backs up all containers to GCP or AWS storage as applicable and 
+replicates them across all regions. In a disaster recovery scenario, instead of leveraging 
+these backups, the process bypasses steps one and two. This deployment pattern is 
+significantly faster when deploying all microservices.
+• Search Recovery  
+A special case within the commercetools application is Search. Various ElasticSearch setups 
+are used to drive internal services but also, even more importantly, product search and 
+Merchant Center services. ElasticSearch is being used as a key technology for that. 
+ 
+The commercetools ElasticSearch indices are derived from the MongoDB product 
+databases as outlined above. Once the core application, including ElasticSearch, is up and 
+running, a sync job between MongoDB and ElasticSearch is triggered to rebuild all search 
+indices.
+• Cutover  
+The new region will re-use all of the failed regions' projects, configurations, and settings. The 
+final step will be to route all DNS records to the new instance. This routing takes place within 
+the cloud provider and does not rely on DNS propagation. The traffic will immediately be 
+routed to the new installation. 
+ 
+All URLs, Keys, and Secrets will remain. Calling applications will not require modification and 
+should begin functioning as expected after the cutover. Depending on the implementation 
+of individual clients, a reboot of those clients may be needed to reconnect.
+commercetools’ Resiliency
+18Support 
+commercetools’ support organization is globally staffed with highly skilled full-time engineers 
+that provide 24/7 incident communication. commercetools’ support organization provides 
+our customers with a single point of contact and covers all of commercetools’ products. 
+Using best-of-breed tooling in an integrated setup of support, SRE, and engineering teams, 
+automated alerting processes and employee schedules are skillfully managed. Internal 
+process definition and process automation tooling are continuously improved with learnings 
+from every incident. 
+Support Services
+We are dedicated to providing our customers with all the support they need to accomplish their 
+eCommerce goals. In the case of a service interruption, customers can monitor the status of our 
+products via our status page. This page also allows users to register for proactive notification of 
+incidents or degradations in their respective hosting Regions. New issues can be reported via our 
+support portal, which guides the user to ensure the right escalation is immediately triggered.
+When problems are detected in individual usage patterns of a tenant through 
+commercetools’ automated status monitoring processes and on-call rotations, the support 
+team proactively reaches out to the escalation contact provided by the customer. We 
+strongly recommend that customers regularly update their emergency contact information 
+through their Customer Success Manager (CSM). 
+As part of our culture of continuous improvement, internal incident post-mortem meetings 
+happen consistently to cover process and technology learnings, which leads to a reduction 
+of future incidents and further resiliency. 
+commercetools’ Resiliency
+19Customer’s Role
+As with any provided software, there are things that the customer can do to leverage and 
+improve commercetools’ resiliency: 
+1. Create and maintain an updated list of services and programs that interact with 
+commercetools and/or online commerce. 
+2. Create and maintain a list of dependencies. 
+3. Connect with a Customer Service Manager (CSM) regularly. 
+4. Document the HA/DR features and specs of all services in the solution.
+a. Eg. GCP, AWS, Azure, and MongoDB have built-in HA/DR systems
+b. If an external search is used, determine the provider’s fail-safes and plan accordingly.
+c. If an external PIM is used
+d. If external promotions are used
+e. If external discounts are used
+f. If there is integration with a CRM, etc. 
+g. If tertiary services from the frontend are used
+5. Work with CSM and Professional Services to determine which areas might create issues.
+6. Create an internal HA/DR plan of action.
+a. Know the built-in backup frequency of each component in the solution
+i. Provided backups may not have been designed to be utilized for internally triggered 
+systemic issues that might cause service interruptions such as accidentally pushing  
+code with errors 
+b. The best practice is to augment these backups with an internal backup protocol based 
+  on individual needs
+7. Implement regular training on best practices.
+a. If a new person is not trained on what to do in the event of an issue, it can: 
+i.  result in errors that exacerbate the situation and possibly cause an outage
+ii. significant delays in recovery of service
+8. Create a list of all providers to contact.
+9. Inform all providers including commercetools as soon as possible when a technical issue arises.
+10.Update contact information for all vendors quarterly at a minimum.
+i.  Set up automatic reminders
+commercetools’ Resiliency
+20Continued Resiliency
+commercetools is continually improving the scalability, availability, and resiliency of our 
+products. Leveraging modern deployment technologies along with our agile mindset and 
+processes allow us to deliver updates to all of our customers quickly. Our product-centric 
+culture strives to ensure all of our products are reliable, highly available, and resilient. We 
+look forward to building a better eCommerce portfolio for you.
+commercetools’ Resiliency
+21Appendix A: Glossary
+Availability 
+APIs and application data are responsive and functioning optimally, typically described in 
+terms of uptime. CT measures Availability by sending test requests at regular intervals for 
+the targeted product. CT makes the results of such measurement available at https://status.
+commercetools.com . 
+Active/Active
+Two instances of a software product running at the same time. In the event that one goes 
+down, traffic is automatically routed to the other instance. Least possible losses.
+Active/Passive
+Two instances of a software product, one running and the other passively updating at 
+determined increments. In the event of an outage, the passive instance starts up and traffic 
+is routed to it. Data is current to the last synchronization period. If that sync was 10 minutes 
+prior to the outage, then 10 minutes will be lost. 
+Customer Data Backup
+The ongoing, frequent, or real-time backup of the Customer’s data which is solely the 
+responsibility of the Customer.
+Disaster Recovery
+An organization's ability to respond to and recover from an event that negatively affects 
+business operations.
+Downtime
+The percentage of the overall time that the service is not available.
+High Availability 
+The ability of a system to operate continuously without failure for a designated period of time.
+Resiliency
+The ability of an application to react to problems in one of its components and still provide 
+the best possible service.
+RPO
+Recovery point objective. The maximum amount of data – as measured by time – that can be 
+lost after a recovery from a disaster. 
+commercetools’ Resiliency
+22RTO
+Recovery time objective. The duration of time and a service level within which a business 
+process must be restored after a disaster in order to avoid unacceptable consequences 
+associated with a break in continuity.
+System Backup
+Backups performed by CT on a periodic basis that are point-in-time snapshots of the 
+platform and the customer’s data.
+Uptime
+Percentage of the overall time that a service is running and available (ex. 99.9%).
+Appendix B:  
+Technical Stack Example
+While our services are independently developed, we do have common tech stacks. Here is 
+an example tech stack from one of our services:
+Cloud Environments GCP / AWS
+Container-Orchestrator Kubernetes (EKS for AWS and GKE for GCP)
+Programming Languages Scala
+Runtime Environment JVM
+Database MongoDB Atlas
+Message Service AWS SQS
+Testing Framework ScalaTest / Cornichon
+CI/CD TeamCity / CircleCI
+MonitoringKibana, Prometheus, Grafana, Pingdom, 
+Pagerduty
+Extra dependenciesAkka streams, Cats effect, Unfiltered, 
+Scalafmt, Scala Steward
+commercetools’ Resiliency
+23Europe - HQ 
+commercetools GmbH
+Adams-Lehmann-Str. 44
+80797 Munich, Germany
+Tel. +49 (89) 99 82 996-0
+info@commercetools.com
+©2022 commercetools GmbH - All rights reservedAmericas 
+commercetools, Inc.
+324 Blackwell, Suite 120
+Durham, NC 27701
+Tel. +1 212-220-3809
+mail@commercetools.comAbout commercetools
+The inventor of headless commerce, commercetools is an innovative technology 
+disruptor that has established itself as an industry-leading eCommerce software provider. 
+Today, some of the world’s most iconic brands and growth-focused businesses trust 
+commercetools’ powerful, flexible, scalable solutions to support their ever-evolving digital 
+commerce needs. As the visionaries leading the modern MACH (Microservices-based, 
+API-first, Cloud-native and Headless) architecture movement, commercetools provides 
+customers with the agility to innovate and iterate on the fly, merge on and off-line channels, 
+drive higher revenue, and future proof their eCommerce business.
+Based in Munich, Germany, with offices in Europe, Asia, and the United States, 
+commercetools is singularly focused on leading a future of limitless commerce possibilities.
+More information at commercetools.com .
+Contact Us
+Munich - Berlin - Jena - Cologne - Amsterdam - Zurich - London - Valencia - Durham NC - Melbourne - Singapore - Shanghai
+commercetools’ Resiliency
+24
+
