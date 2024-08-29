@@ -42,9 +42,9 @@ def create_dataset():
     enocded_inputs = tokenizer(chunks, truncation=True, padding=True)
     dataset = Dataset.from_dict(enocded_inputs)
     dataset.add_column("labels", labels)
-    # dataset.save_to_disk(dataset_save_path)
+    dataset.save_to_disk(dataset_save_path)
     df = dataset.to_pandas()
-    df.to_csv(rf"{dataset_save_path}/dataset.csv")
+    df.to_csv(dataset_save_path+"dataset.csv")
     return dataset
 
 
