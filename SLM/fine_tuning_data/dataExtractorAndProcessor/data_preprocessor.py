@@ -9,7 +9,7 @@ load_dotenv()
 base_slm = os.getenv("BASE_SLM")
 
 # Initialize the tokenizer
-tokenizer = DistilBertTokenizerFast.from_pretrained(base_slm)
+tokenizer = DistilBertTokenizerFast.from_pretrained('distilbert-base-uncased')
 
 
 # Preprocess the data
