@@ -1,54 +1,36 @@
-from SLM.fine_tuning_data.dataExtractorAndProcessor.data_preprocessor import train_tokenized_datasets, \
-    test_tokenized_datasets
-# from SLM.models.DistilBERT.base_model import tokenizer
-from SLM.fine_tuning_data.trainer.create_trainer_configuration import training_config
-from transformers import Trainer, DataCollatorWithPadding, DistilBertForSequenceClassification, DistilBertTokenizerFast
+from SLM.fine_tuning_data.dataExtractorAndProcessor.segregate_train_test_data import train_dataset, val_dataset
+from transformers import Trainer, DataCollatorWithPadding, DistilBertForSequenceClassification, DistilBertTokenizerFast, \
+    DistilBertTokenizer
+from SLM.trainer.create_trainer_configuration import training_args
+from SLM.models.DistilBERT.fine_tuning_model.configure_training_device import device
+import torch
 
-# Initialize the model for sequence classification
-model = DistilBertForSequenceClassification.from_pretrained('distilbert-base-uncased', num_labels=2)
-
-# Initialize the tokenizer
+# Initialise the tokenizer
 tokenizer = DistilBertTokenizerFast.from_pretrained('distilbert-base-uncased')
 
+# Initialise the model.
+"""
+Also note that num_labels can change, here I'm assuming the model needs to be fine-tuned in order to predict that many
+number of labels or classes
+"""
+model = DistilBertForSequenceClassification.from_pretrained('distilbert-base-uncased', num_labels=5)
 
-for elem in train_tokenized_datasets['name']:
-    print(elem, type(elem))
+# Move model to device which is CPU in this instance
+model.to(device)
 
-
-# Define a custom data collator
-class CustomDataCollator(DataCollatorWithPadding):
-    def __call__(self, features):
-        # Check if features is a list and convert it to a dictionary
-        if isinstance(features, list):
-            features = {key: [feature[key] for feature in features] for key in features[0]}
-        return super().__call__(features)
-
-
-# Initialize the data collator
-data_collator = CustomDataCollator(tokenizer)
-
-# Ensure the datasets contain the necessary labels
-# Assuming 'labels' is the key for the labels in the datasets
-if 'labels' not in train_tokenized_datasets.column_names:
-    train_tokenized_datasets = train_tokenized_datasets.map(lambda examples: {'labels': examples['label']})
-if 'labels' not in test_tokenized_datasets.column_names:
-    test_tokenized_datasets = test_tokenized_datasets.map(lambda examples: {'labels': examples['label']})
-
-
-# Train the model
-trained_model = Trainer(
+# Initialise the DistilBERT trainer with the necessary defined config
+trainer = Trainer(
     model=model,
-    args=training_config,
-    train_dataset=train_tokenized_datasets,
-    eval_dataset=test_tokenized_datasets,
-    data_collator=data_collator,
+    args=training_args,
+    train_dataset=train_dataset,
+    eval_dataset=val_dataset,
     tokenizer=tokenizer
 )
 
-trained_model.train()
+# Fine-tuning the model
+trainer.train()
 
-evaluation_result = trained_model.evaluate()
-print(evaluation_result)
-
-model.save_pretrained("./fine-tuned/")
-tokenizer.save_pretrained("./fine-tuned")
+# Now we can save the fine-tuned model to specified directory which can be used for later purpose
+# Save the fine-tuned model
+model.save_pretrained("fine-tuned-distilbert")
+tokenizer.save_pretrained("fine-tuned-distilbert")
